@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Broadcastify Screen Sharing",
-  "description": "Enables screen-sharing in Broadcastify",
+  "name": "AnthonyHasIdeas",
+  "description": "Enables screen-sharing for AnthonyHasIdeas",
   "version": "0.1",
   "content_security_policy": "default-src",
   "permissions": [
