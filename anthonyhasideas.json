@@ -7,15 +7,15 @@
   "permissions": [
     "tabs",
     "desktopCapture",
-    "https://4295bcc1.ngrok.com/*",
-    "https://broadcast-with-respoke.herokuapp.com/*"
+    "https://anthonyhasideas.github.io/*",
+    "https://localhost:9000/*"
   ],
   "background": {
     "scripts": ["background.js"],
     "persistent": true
   },
   "content_scripts": [{
-    "matches": ["https://4295bcc1.ngrok.com/*", "https://broadcast-with-respoke.herokuapp.com/*"],
+    "matches": ["https://anthonyhasideas.github.io/*", "https://localhost:9000/*"],
     "js": ["content.js"],
     "run_at": "document_end"
   }]
